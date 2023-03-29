@@ -15,11 +15,11 @@ public class Main {
         Random random = new Random();
         System.out.println("Введите верхнюю границу для значений");
         int input2 = scanner.nextInt();
-        for(int i=0;i<input1;i++){
+        for (int i = 0; i < input1; i++) {
             source.add(random.nextInt(input2));
         }
         logger.log("Создаём и наполняем список");
-        System.out.println("Вот случайный список: "+ source);
+        System.out.println("Вот случайный список: " + source);
         logger.log("Просим пользователя ввести входные данные для фильтрации");
         System.out.println("Введите порог для фильтра: ");
         int input3 = scanner.nextInt();
